@@ -7,7 +7,7 @@ import javax.persistence.Id;
 import javax.persistence.OneToOne;
 
 @Entity
-public class Authentication {
+public class Login {
 	
 	
 	@Id
@@ -55,7 +55,7 @@ public class Authentication {
 		this.customer = customer;
 	}
 
-	public Authentication(Integer userId, String password, Admin admin, Customer customer) {
+	public Login(Integer userId, String password, Admin admin, Customer customer) {
 		super();
 		this.userId = userId;
 		this.password = password;
@@ -63,7 +63,7 @@ public class Authentication {
 		this.customer = customer;
 	}
 
-	public Authentication() {
+	public Login() {
 		super();
 		
 	}
