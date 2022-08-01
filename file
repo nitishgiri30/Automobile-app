@@ -1,0 +1,319 @@
+    1  su global
+    2  ifconfig 
+    3  sudo apt update
+    4  sudo apt upgrade
+    5  sudo apt install wget
+    6  wget https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb
+    7  sudo apt update
+    8  sudo apt upgrade
+    9  sudo apt install wget
+   10  wget https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb
+   11  sudo dpkg -i google-chrome-stable_current_amd64.deb
+   12  google-chrome
+   13  sudo apt update
+   14  sudo apt upgrade
+   15  sudo snap install zoom-client
+   16  zoom-client
+   17  sudo apt update
+   18  sudo apt upgrade
+   19  sudo apt-get install ./Webex.deb
+   20  ls
+   21  cd Downloads
+   22  ls
+   23  sudo apt-get install ./Webex.deb
+   24  cd ..
+   25  sudo apt update
+   26  sudo apt upgrade
+   27  wget https://download.teamviewer.com/download/linux/teamviewer_amd64.deb
+   28  sudo apt install ./teamviewer_amd64.deb
+   29  cat /etc/apt/sources.list.d/teamviewer.lis
+   30  ...
+   31  deb http://linux.teamviewer.com/deb stable main
+   32  ...
+   33  free -g
+   34  free -h
+   35  java -version
+   36  sudo apt update
+   37  sudo apt install openjdk-11-jre-headless 
+   38  java -version
+   39  sudo apt install openjdk-8-jre-headless
+   40  java -version
+   41  sudo update-alternatives --config java
+   42  nano /etc/environment
+   43  nano /etc/environment
+   44  sudo update-alternatives  --config java
+   45  whereis jvm
+   46  nano .bashrc
+   47  echo $JAVA_HOME
+   48  nano .bashrc
+   49  ec
+   50  echo
+   51  exec bash
+   52  echo $JAVA_HOME
+   53  echo $PATH
+   54  echo $JAVA_HOME
+   55  echo $JAVA_HOME
+   56  nano .bashrc
+   57  nano /etc/environment
+   58  vim /etc/environment
+   59  sudo su -root
+   60  sudo su - root
+   61  echo $JAVA_HOME
+   62  sudo su - root
+   63  cd Downloads
+   64  sudo mv eclipse /opt/
+   65  sudo chown -R $USER:$USER /opt/eclipse
+   66  sudo apt remove zoom
+   67  cd Downloads
+   68  ls
+   69  wget https://zoom.us/client/latest/zoom_amd64.deb
+   70  sudo apt-get -f install ./zoom_amd64.deb
+   71  sudo apt install ./zoom_amd64.deb
+   72  sudo apt-get update
+   73  sudo apt-get install git
+   74  git --version
+   75  git config --global user.name "Nitish Giri"
+   76  git config --global user.email "nitish.giri@globallogic.com"
+   77  sudo mysql
+   78  sudo apt update
+   79  clear
+   80  sudo apt upgrade
+   81  clear
+   82  sudo apt install mysql-server
+   83  mysql --version
+   84  clear
+   85  sudo mysql_secure_installation
+   86  sudo mysql -u root
+   87  clear
+   88  sudo mysql -u root
+   89  clear
+   90  mysql -h localhost -u root -p
+   91  ls
+   92  cd Downloads
+   93  sudo dpkg -i mysql-workbench-community-dbgsym_8.0.29-1ubuntu21.10_amd64.deb
+   94  sudo apt -get install gnome-menus
+   95  sudo apt-get install gnome-menus
+   96  sudo apt --fix-broken install
+   97  mysql -workbench
+   98  clear
+   99  cd..
+  100  Cd ..
+  101  cd ..
+  102  clear
+  103  sudo snap install mysql-workbench-community
+  104  mysql -h localhost -u root -p
+  105  npm install -g http-server
+  106  git clone https://github.com/swagger-api/swagger-ui.git
+  107  cd swagger-ui/
+  108  sudo -E npm Install -g
+  109  cd ..
+  110  sudo apt update
+  111  sudo apt install nodejs npm
+  112  nodejs --version
+  113  cd swagger-ui/
+  114  sudo apt install nodejs npm
+  115  sudo -E npm Install -g
+  116  sudo -E npm install -g
+  117  sudo -E npm run build
+  118  npm run serve
+  119  cd ..
+  120  cd /home/nitish.giri/.npm/_logs/2022-07-22T09_30_25_760Z-debug.log
+  121  cd /home/nitish.giri/.npm/_logs
+  122  ls
+  123  sudo -E npm run build
+  124  npm run serve
+  125  cd 2022-07-22T09_30_25_760Z-debug.log
+  126  cd ..
+  127  cd swagger-ui/
+  128  npm install
+  129  npm start
+  130  npm-run-all
+  131  cd ..
+  132  http-server -p 8080 swagger-editor
+  133  npm --version
+  134  cd swagger-ui/
+  135  install -g http-server
+  136  sudo -E npm install -g
+  137  http-server -p 8080 swagger-editor
+  138  cd ..
+  139  http-server -p 8080 swagger-editor
+  140  sudo apt-get remove nodejs
+  141  sudo apt-get purge nodejs
+  142  sudo apt-get autoremove
+  143  npm -v
+  144  node -v
+  145  npm -v
+  146  node -v
+  147  cd Downloads
+  148  ls
+  149  node-v18.6.0
+  150  cd node-v18.6.0
+  151  ls
+  152  sudo apt update 
+  153  sudo apt install nodejs npm
+  154  npm -v
+  155  node -v
+  156  nodejs  --version
+  157  node -v
+  158  sudo apt update
+  159  sudo apt upgrade
+  160  sudo apt install npm
+  161  npm -v
+  162  npm install -g http-server
+  163  sudo chown -R 124429:11000 "/home/nitish.giri/.npm"
+  164  npm install -g http-server
+  165  sudo chown -R $USER /usr/local/lib/node_modules
+  166  npm install -g http-server
+  167  sudo chown -R $USER /usr/local/share/man/man1
+  168  sudo apt-get remove nodejs
+  169  sudo apt-get purge nodejs
+  170  sudo apt-get autoremove
+  171  npm -v
+  172  cd Downloads
+  173  ls
+  174  cd  node-v18.6.0
+  175  sudo make install
+  176  ,/configure
+  177  ./configure
+  178  make
+  179  ls
+  180  cd swagger-ui-4.13.0
+  181  ./configure
+  182  ls
+  183  cd node-v18.6.0
+  184  ./configure
+  185  make
+  186  cd Downloads
+  187  ls
+  188  cd node-v18.6.0
+  189  ./configure
+  190  sudo make install
+  191  sudo apt update
+  192  sudo apt upgrade
+  193  sudo apt install nodejs npm
+  194  npm --version
+  195  npm install -g npm@latest
+  196  npm install latest-version
+  197  npm --version
+  198  npm install -g npm@latest
+  199  sudo chown -R $USER:$(id -gn $USER) /home/nitish.giri/.confi
+  200  sudo chown -R $USER:$(id -gn $USER) /home/nitish.giri/.config
+  201  sudo apt-get remove nodejs
+  202  sudo apt-get purge nodejs
+  203  sudo apt-get autoremove
+  204  npm -v
+  205  curl -sL https://deb.nodesource.com/setup_18.x | sudo -E bash -
+  206  sudo apt install curl
+  207  curl -sL https://deb.nodesource.com/setup_18.x | sudo -E bash -
+  208  node -v
+  209  nodejs -v
+  210  sudo apt-get install -y nodejs
+  211  nodejs -v
+  212  node -v
+  213  npm  -v
+  214  npm install -g http-server
+  215  npm notice 
+  216  sudo npm install -g npm@8.15.0
+  217  npm install -g http-server
+  218  sudo npm install -g http-server
+  219  git clone https://github.com/swagger-api/swagger-ui.git
+  220  http-server -p 8080 swagger-ui
+  221  history
+  222  git --version
+  223  git status
+  224  cd ..
+  225  cd..
+  226  cd ..
+  227  history
+  228  git init
+  229  ls
+  230  git status
+  231  git add .
+  232  git status
+  233  git commit -m "version 1"
+  234  git log
+  235  git status
+  236  git add .
+  237  git commit -m "version 2"
+  238  git log
+  239  git config --global user.name
+  240  git status
+  241  git remote add origin git@github.com:nitishgiri30/AutoMobile-Application.git
+  242  git push -u origin master
+  243  ssh-keygen -t ed25519 -C "nitish.giri@globallogic.com"
+  244  eval "$(ssh-agent -s)"
+  245  ssh-add ~/.ssh/id_ed25519
+  246  cat ~/.ssh/id_ed25519.pub
+  247  git push -u origin master
+  248  git status
+  249  git add .
+  250  git commit -m "Changed utils.txt"
+  251  git push -u origin master
+  252  git log
+  253  git pull origin master
+  254  git push origin master
+  255  git diff utils.txt
+  256  git diff utility.txt
+  257  git diff Utility.txt
+  258  git diff index.txt
+  259  git diff
+  260  git diff --index.txt
+  261  git pull
+  262  ls -la
+  263  git branch
+  264  git checkout main
+  265  git branch
+  266  git status
+  267  git add .
+  268  git commit
+  269  git commit -m "Added main branch"
+  270  git push origin main 
+  271  git status
+  272  git log
+  273  git init
+  274  git branch
+  275  git checkout Nitish
+  276  git add .
+  277  git commit
+  278  git commit;
+  279  git commit -m "new version"
+  280  git push origin main
+  281  git push origin Nitish
+  282  git status 
+  283  git log
+  284  ls
+  285  ls -al
+  286  git clone /home/nitish.giri/Documents/AutoMobile Application/HELP.md
+  287  /home/nitish.giri/Documents/AutoMobile Application/main
+  288  /home/nitish.giri/Documents/AutoMobile Application/mvnw
+  289  /home/nitish.giri/Documents/AutoMobile Application/mvnw.cmd
+  290  /home/nitish.giri/Documents/AutoMobile Application/pom.xml
+  291  /home/nitish.giri/Documents/AutoMobile Application/README.md
+  292  /home/nitish.giri/Documents/AutoMobile Application/src
+  293  git pull
+  294  git branch
+  295  git checkout Nitish
+  296  touch file
+  297  git add .
+  298  git commit -m "test file"
+  299  git push
+  300  git pull origin
+  301  git checkout main
+  302  git status
+  303  git checkout Akash
+  304  git pull origin
+  305  git merge master
+  306  git push
+  307  git pull origin master
+  308  git merge master
+  309  git branch
+  310  git pull origin Akash
+  311  git status
+  312  git merge main
+  313  git merge master
+  314  git push
+  315  git checkout manish
+  316  git pull
+  317  git push
+  318  git history > file
+  319  history > file
