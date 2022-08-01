@@ -1,3 +1,4 @@
+<<<<<<< HEAD
     1  su global
     2  ifconfig 
     3  sudo apt update
@@ -317,3 +318,6 @@
   317  git push
   318  git history > file
   319  history > file
+=======
+hellohello
+>>>>>>> 1e449f000f49fe695aa736f56d4d99bf8a26a2a5
